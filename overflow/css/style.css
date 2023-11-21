@@ -1,0 +1,39 @@
+article >p{
+    margin-bottom: 5em;
+    width: 500px;
+    height: 120px;
+    background-color: #DD5735;
+}
+
+.visible p{
+    overflow: visible;
+}
+
+.hidden p{
+    overflow: hidden;
+}
+
+.scroll p{
+    overflow: scroll;
+}
+
+.auto p{
+    overflow: auto;
+}
+
+.ellipsis p{
+    text-overflow: ellipsis;
+    width: 240px;
+    white-space: nowrap;
+}
+
+.dernier p{
+    text-overflow: "";
+    width: 240px;
+    white-space: nowrap;
+}
+
+pre{
+    text-align: center;
+    font-style: italic;
+}
